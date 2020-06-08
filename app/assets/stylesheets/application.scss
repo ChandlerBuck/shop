@@ -1,3 +1,11 @@
 /* Custom bootstrap variables must be set or imported *before* bootstrap. */
 @import "bootstrap";
 
+button:focus {
+    outline: 0;
+    
+}
+
+.navbar .dropdown-menu .form-control {
+    width: 200px;
+}
